@@ -166,24 +166,83 @@
 
 .work .content div h3 {
     font-family: Montserrat;
-font-size: 3.375rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .work .content div p {
     color: #222;
 
-font-family: Montserrat;
-font-size: 1rem;
-font-style: normal;
-font-weight: 300;
-line-height: 1.875rem; /* 187.5% */
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.875rem;
+    /* 187.5% */
 }
 
 
 
 .my-work .work:nth-child(odd) {
     flex-direction: row-reverse;
+}
+
+.my-work .action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+.my-work .action button {
+    text-transform: uppercase;
+    color: #DDD;
+    background: var(--color-dark-1);
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.call-to-action {
+    display: flex;
+    height: 40.875rem;
+    padding: 0.625rem 15.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.125rem;
+    align-self: stretch;
+}
+
+.call-to-action h2 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.call-to-action p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.call-to-action .action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
 }

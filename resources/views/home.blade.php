@@ -13,7 +13,7 @@ martinrr.dev
     <div class="content">
         <h1>MARTIN RISTOFF<br>WEB DEVELOPER</h1>
         <p>lorem ipsum dolor sit atmen lorem ipsum dolor sit atmen lorem ipsum dolor sit atmenlorem ipsum dolor sit atmenlorem ipsum dolor sit atmen lorem ipsum dolor sit atmen lorem ipsum dolor sit atmenlorem ipsum dolor sit atmen</p>
-        <div class="call-to-action flex-row">
+        <div class="action flex-row">
             <a href=""><button class="button button-dark">CONTACT</button></a>
             <a href=""><button class="button button-light">SERVICES</button></a>
         </div>
@@ -79,6 +79,18 @@ martinrr.dev
         </div>
     </div>
 
+    <div class="action">
+        <a href=""><button class="button button-light">See all</button></a>
 
+    </div>
 </section>
+
+<section class="call-to-action">
+    <h2>Ready to work together?</h2>
+    <p>Contact me today for a free consultation. We can discuss your goals and how I can help you achieve them.</p>
+    <div class="action">
+        <a href=""><button class="button button-dark">start a conversation</button></a>
+    </div>
+</section>
+
 @endsection
