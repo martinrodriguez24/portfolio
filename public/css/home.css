@@ -1,0 +1,189 @@
+.landing {
+    display: flex;
+    padding: 100px 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    align-self: stretch;
+
+
+}
+
+.landing .content {
+    display: flex;
+    width: 41.375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.content h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.content button {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.services-i-offer {
+    display: flex;
+    padding: 6.25rem 0.625rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 6.25rem;
+    align-self: stretch;
+    background: #444;
+    color: var(--color-light-1);
+    width: 100%;
+    padding: 100px 150px;
+
+}
+
+.services-i-offer .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+
+    text-transform: uppercase;
+}
+
+.services-i-offer button {
+    color: #222;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services-i-offer h2 {
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.services-i-offer .services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+    width: 600px
+}
+
+.services .service {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+    padding: 0 0 1rem 0;
+    border-bottom: var(--border-box-light);
+}
+
+.service h3 {
+    color: #FFF;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.service p {
+    align-self: stretch;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2rem
+}
+
+.my-work {
+    display: flex;
+    padding: 5.4375rem 4.3125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.4375rem;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.my-work h2 {
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.my-work .work {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    align-self: stretch;
+    border: 1px solid #000;
+    background: #DDD;
+}
+
+.work img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.work .content {
+    width: 50%;
+    display: flex;
+    padding: 9.375rem 3.125rem;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.work .content div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+    flex: 1 0 0;
+}
+
+.work .content div h3 {
+    font-family: Montserrat;
+font-size: 3.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.work .content div p {
+    color: #222;
+
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: 1.875rem; /* 187.5% */
+}
+
+
+
+.my-work .work:nth-child(odd) {
+    flex-direction: row-reverse;
+}

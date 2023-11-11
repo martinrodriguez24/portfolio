@@ -1,0 +1,15 @@
+header {
+    width: 100%;
+    height: 70px;
+    padding: 0px 101px;
+    border-bottom: var(--border-box-dark);
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
