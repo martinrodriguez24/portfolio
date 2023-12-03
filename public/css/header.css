@@ -13,3 +13,19 @@ header ul {
     align-items: center;
     gap: 20px;
 }
+
+@media(max-width: 720px) {
+    header {
+        padding: 0px 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 540px) {
+    header {
+        padding: 0px 25px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
