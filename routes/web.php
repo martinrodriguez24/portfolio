@@ -22,7 +22,7 @@ Route::get('/', function () {
 // Post model
 // Get
 Route::get('/blog', PostController::class . '@index')->name('posts.index');
-Route::get('/blog/{slug}', PostController::class . '@show')->name('post.show');
+Route::get('/blog/post/{slug}', PostController::class . '@show')->name('post.show');
 // Create
 Route::get('/blog/post/create', PostController::class . '@create')->name('post.create');
 Route::post('/blog', PostController::class . '@store')->name('post.store');
@@ -48,4 +48,4 @@ Route::delete('/blog/category/{slug}', CategoryController::class . '@destroy')->
 
 
 // Define route to handle attaching a category to a post
-Route::post('/posts/{post}/categories', PostCategoryController::class .'@attachCategory')->name('posts.attachCategory');
+Route::post('/posts/categories', PostCategoryController::class .'@attachCategory')->name('posts.attachCategory');
